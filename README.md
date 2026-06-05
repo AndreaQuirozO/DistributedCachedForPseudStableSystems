@@ -9,12 +9,6 @@ An event-driven simulator written in Go designed to evaluate how classical and h
 
 ## Project Overview
 
-Here’s a clean, GitHub-ready **project overview** that is consistent with your report style but slightly more accessible and concise for a README:
-
----
-
-## Project Overview
-
 This project studies cache eviction policies in distributed inference systems for large-scale AI models. Modern LLM serving environments rely on hierarchical memory systems (disk, RAM, vRAM) and frequently face severe memory pressure due to large model sizes and multi-model execution pipelines. In this context, cache management decisions play a critical role in determining end-to-end inference latency.
 
 We build an event-driven distributed inference simulator in Go that models clients, a central coordinator, worker nodes, and a hierarchical memory system. The simulator supports interchangeable cache eviction policies and allows controlled evaluation under diverse workload distributions, including Uniform, Normal, Poisson, Gamma, and Power Law request patterns. Both single-model and multi-model serving scenarios are supported to reflect modern AI workloads such as RAG and agentic systems.
