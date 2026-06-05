@@ -1,0 +1,68 @@
+VirtualTime_Sec,RequestID,ModelID,OriginNode,EndNode,Operation,Size_GB,Duration_Sec,Description
+0.000520,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Miss / Request Weights
+0.001040,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+1.601540,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,client_1,coordinator_0,NET_TRANSFER,8.000000,1.600500,Upload Model Weights
+2.002040,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_3,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+3.335373,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,worker_3,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+3.366623,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,worker_3,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+3.416623,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+3.417143,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+3.817643,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_4,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+5.150977,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,worker_4,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+5.182227,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,worker_4,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+5.232227,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+5.232747,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+5.633247,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_1,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+6.966580,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,worker_1,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+6.997830,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,worker_1,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+7.047830,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+7.048350,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+7.448850,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_2,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+8.782183,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,worker_2,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+8.813433,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,worker_2,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+8.863433,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+8.863953,100,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+8.864473,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+8.864993,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_3,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+8.865513,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+8.866033,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_4,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+8.866553,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+8.867073,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_1,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+8.867593,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+8.868113,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_2,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+8.868633,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+8.869153,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Hit / Starting
+8.869673,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_3,NET_TRANSFER,0.000100,0.000520,Trigger Inference
+8.919673,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+8.920193,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+8.920713,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_4,NET_TRANSFER,0.000100,0.000520,Trigger Inference
+8.970713,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+8.971233,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+8.971753,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_1,NET_TRANSFER,0.000100,0.000520,Trigger Inference
+9.021753,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+9.022273,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+9.022793,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_2,NET_TRANSFER,0.000100,0.000520,Trigger Inference
+9.072793,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+9.073313,101,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+9.073833,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+9.074353,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_3,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+9.074873,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+9.075393,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_4,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+9.075913,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+9.076433,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_1,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+9.076953,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+9.077473,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_2,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+9.077993,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+9.078513,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Hit / Starting
+9.079033,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_3,NET_TRANSFER,0.000100,0.000520,Trigger Inference
+9.129033,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+9.129553,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+9.130073,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_4,NET_TRANSFER,0.000100,0.000520,Trigger Inference
+9.180073,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+9.180593,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+9.181113,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_1,NET_TRANSFER,0.000100,0.000520,Trigger Inference
+9.231113,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+9.231633,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+9.232153,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,coordinator_0,worker_2,NET_TRANSFER,0.000100,0.000520,Trigger Inference
+9.282153,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+9.282673,102,d65c3ebc-027c-4899-8ca4-fb09052530c8,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished

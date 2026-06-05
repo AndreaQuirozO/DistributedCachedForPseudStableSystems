@@ -1,0 +1,3 @@
+VirtualTime_Sec,RequestID,ModelID,OriginNode,EndNode,Operation,Size_GB,Duration_Sec,Description
+0.158000,7000,810e3398-13a4-4dee-a7da-9a8efb7e4ec6,client_7,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+0.316000,10000,0510064f-76bf-4d1e-88ef-8216737f2916,client_10,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID

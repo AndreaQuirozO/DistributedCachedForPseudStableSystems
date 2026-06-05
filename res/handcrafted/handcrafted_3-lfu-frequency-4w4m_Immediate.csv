@@ -1,0 +1,196 @@
+VirtualTime_Sec,RequestID,ModelID,OriginNode,EndNode,Operation,Size_GB,Duration_Sec,Description
+0.000520,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Miss / Request Weights
+0.001040,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+1.601540,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,client_1,coordinator_0,NET_TRANSFER,8.000000,1.600500,Upload Model Weights
+2.002040,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,worker_1,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+3.335373,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,worker_1,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+3.366623,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,worker_1,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+3.416623,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+3.416623,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,worker_1,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+3.417143,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+3.817643,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,worker_2,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+5.150977,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,worker_2,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+5.182227,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,worker_2,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+5.232227,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+5.232227,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,worker_2,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+5.232747,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+5.633247,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,worker_3,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+6.966580,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,worker_3,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+6.997830,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,worker_3,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+7.047830,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+7.047830,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,worker_3,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+7.048350,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+7.448850,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,worker_4,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+8.782183,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,worker_4,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+8.813433,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,worker_4,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+8.863433,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+8.863433,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,worker_4,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+8.863953,100,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+8.864473,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+8.864993,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Miss / Request Weights
+12.065493,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,client_1,coordinator_0,NET_TRANSFER,16.000000,3.200500,Upload Model Weights
+12.865993,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_2,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+15.532660,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+15.595160,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+15.645160,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+15.645160,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+15.645680,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+16.446180,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_3,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+19.112847,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+19.175347,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+19.225347,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+19.225347,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+19.225867,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+20.026367,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_4,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+22.693033,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+22.755533,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+22.805533,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+22.805533,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+22.806053,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+23.606553,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_1,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+26.273220,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+26.335720,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+26.385720,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+26.385720,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+26.386240,101,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+26.386760,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+26.387280,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_2,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+26.387800,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+26.388320,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Miss / Request Weights
+29.588820,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,client_1,coordinator_0,NET_TRANSFER,16.000000,3.200500,Upload Model Weights
+30.389320,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_2,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+33.055987,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+33.118487,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+33.168487,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+33.168487,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+33.169007,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+33.969507,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_3,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+36.636173,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+36.698673,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+36.748673,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+36.748673,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+36.749193,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+37.549693,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_4,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+40.216360,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+40.278860,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+40.328860,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+40.328860,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+40.329380,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+41.129880,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_1,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+43.796547,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+43.859047,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+43.909047,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+43.909047,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+43.909567,102,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+43.910087,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+43.910607,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Miss / Request Weights
+45.511107,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,client_1,coordinator_0,NET_TRANSFER,8.000000,1.600500,Upload Model Weights
+45.911607,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,coordinator_0,worker_1,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+47.244940,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_1,worker_1,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+47.276190,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_1,worker_1,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+47.326190,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+47.326190,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_1,worker_1,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+47.326710,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+47.727210,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,coordinator_0,worker_2,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+49.060543,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_2,worker_2,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+49.091793,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_2,worker_2,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+49.141793,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+49.141793,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_2,worker_2,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+49.142313,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+49.542813,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,coordinator_0,worker_3,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+50.876147,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_3,worker_3,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+50.907397,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_3,worker_3,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+50.957397,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+50.957397,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_3,worker_3,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+50.957917,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+51.358417,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,coordinator_0,worker_4,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+52.691750,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_4,worker_4,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+52.723000,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_4,worker_4,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+52.773000,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+52.773000,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_4,worker_4,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+52.773520,103,70abec6c-54c8-44a6-a54d-4ab22d16f896,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+52.774040,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+52.774560,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,worker_1,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+52.775080,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+52.775600,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Miss / Request Weights
+54.376100,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,client_1,coordinator_0,NET_TRANSFER,8.000000,1.600500,Upload Model Weights
+54.776600,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,worker_1,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+56.109933,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,worker_1,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+56.141183,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,worker_1,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+56.191183,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+56.191183,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,worker_1,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+56.191703,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+56.592203,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,worker_2,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+57.925537,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,worker_2,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+57.956787,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,worker_2,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+58.006787,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+58.006787,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,worker_2,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+58.007307,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+58.407807,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,worker_3,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+59.741140,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,worker_3,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+59.772390,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,worker_3,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+59.822390,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+59.822390,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,worker_3,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+59.822910,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+60.223410,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,coordinator_0,worker_4,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+61.556743,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,worker_4,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+61.587993,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,worker_4,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+61.637993,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+61.637993,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,worker_4,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+61.638513,104,f808e9ec-925f-44b3-b530-bd3440ea5f75,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+61.639033,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+61.639553,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Miss / Request Weights
+63.240053,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,client_1,coordinator_0,NET_TRANSFER,8.000000,1.600500,Upload Model Weights
+63.640553,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,coordinator_0,worker_3,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+64.973887,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_3,worker_3,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+65.005137,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_3,worker_3,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+65.055137,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+65.055137,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_3,worker_3,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+65.055657,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+65.456157,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,coordinator_0,worker_4,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+66.789490,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_4,worker_4,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+66.820740,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_4,worker_4,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+66.870740,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+66.870740,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_4,worker_4,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+66.871260,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+67.271760,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,coordinator_0,worker_1,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+68.605093,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_1,worker_1,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+68.636343,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_1,worker_1,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+68.686343,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+68.686343,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_1,worker_1,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+68.686863,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+69.087363,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,coordinator_0,worker_2,NET_TRANSFER,2.000000,0.400500,Distribute Layer
+70.420697,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_2,worker_2,DISK_LOAD,2.000000,1.333333,Disk -> RAM
+70.451947,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_2,worker_2,MEM_MOVE,2.000000,0.031250,RAM -> VRAM
+70.501947,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+70.501947,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_2,worker_2,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+70.502467,105,ce833148-fc7a-486c-b2b9-282d6f2b27cd,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+70.502987,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,client_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Request Model ID
+70.503507,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_2,NET_TRANSFER,0.000100,0.000520,Poll: Check Layer Cache
+70.504027,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Poll: Cache Status Reply
+70.504547,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,client_1,NET_TRANSFER,0.000100,0.000520,Signal: Cache Miss / Request Weights
+73.705047,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,client_1,coordinator_0,NET_TRANSFER,16.000000,3.200500,Upload Model Weights
+74.505547,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_2,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+77.172213,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+77.234713,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+77.284713,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+77.284713,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,worker_2,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+77.285233,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+78.085733,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_3,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+80.752400,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+80.814900,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+80.864900,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+80.864900,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,worker_3,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+80.865420,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+81.665920,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_4,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+84.332587,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+84.395087,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+84.445087,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+84.445087,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,worker_4,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+84.445607,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished
+85.246107,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,coordinator_0,worker_1,NET_TRANSFER,4.000000,0.800500,Distribute Layer
+87.912773,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,DISK_LOAD,4.000000,2.666667,Disk -> RAM
+87.975273,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,MEM_MOVE,4.000000,0.062500,RAM -> VRAM
+88.025273,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+88.025273,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,worker_1,MEM_MOVE,0.000000,0.000000,Wipe/Deallocate Layer
+88.025793,106,edf5c85b-256e-4f0b-909d-59f9deb0f73c,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.000520,Signal Finished

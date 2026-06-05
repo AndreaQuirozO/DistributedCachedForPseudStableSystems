@@ -1,0 +1,17 @@
+VirtualTime_Sec,RequestID,ModelID,OriginNode,EndNode,Operation,Size_GB,Duration_Sec,Description
+0.158000,1,a0b64dbe-1ad2-4beb-b17f-d8e598d760a5,client_0,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+0.316000,1,a0b64dbe-1ad2-4beb-b17f-d8e598d760a5,coordinator_0,client_0,NET_TRANSFER,0.000100,0.158000,Signal: Cache Miss / Request Weights
+320.466000,1,a0b64dbe-1ad2-4beb-b17f-d8e598d760a5,client_0,coordinator_0,NET_TRANSFER,4.000000,320.150000,Upload Model Weights
+640.616000,1,a0b64dbe-1ad2-4beb-b17f-d8e598d760a5,coordinator_0,worker_1,NET_TRANSFER,4.000000,320.150000,Distribute Layer ID: 61f1f2c1
+640.647250,1,a0b64dbe-1ad2-4beb-b17f-d8e598d760a5,worker_1,worker_1,DISK_LOAD,4.000000,0.031250,"Disk -> RAM [Model: a0b64dbe, Layer: 61f1f2c1]"
+640.678500,1,a0b64dbe-1ad2-4beb-b17f-d8e598d760a5,worker_1,worker_1,MEM_MOVE,4.000000,0.031250,"RAM -> VRAM [Model: a0b64dbe, Layer: 61f1f2c1]"
+640.778500,1,a0b64dbe-1ad2-4beb-b17f-d8e598d760a5,worker_1,worker_1,GPU_COMPUTE,0.100000,0.100000,GPU Compute
+640.936500,1,a0b64dbe-1ad2-4beb-b17f-d8e598d760a5,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+641.094500,2,c72c592f-d772-4b0b-907f-cbed4e01bd2e,client_0,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+641.252500,2,c72c592f-d772-4b0b-907f-cbed4e01bd2e,coordinator_0,client_0,NET_TRANSFER,0.000100,0.158000,Signal: Cache Miss / Request Weights
+961.402500,2,c72c592f-d772-4b0b-907f-cbed4e01bd2e,client_0,coordinator_0,NET_TRANSFER,4.000000,320.150000,Upload Model Weights
+1281.552500,2,c72c592f-d772-4b0b-907f-cbed4e01bd2e,coordinator_0,worker_2,NET_TRANSFER,4.000000,320.150000,Distribute Layer ID: 31b25404
+1281.583750,2,c72c592f-d772-4b0b-907f-cbed4e01bd2e,worker_2,worker_2,DISK_LOAD,4.000000,0.031250,"Disk -> RAM [Model: c72c592f, Layer: 31b25404]"
+1281.615000,2,c72c592f-d772-4b0b-907f-cbed4e01bd2e,worker_2,worker_2,MEM_MOVE,4.000000,0.031250,"RAM -> VRAM [Model: c72c592f, Layer: 31b25404]"
+1281.715000,2,c72c592f-d772-4b0b-907f-cbed4e01bd2e,worker_2,worker_2,GPU_COMPUTE,0.100000,0.100000,GPU Compute
+1281.873000,2,c72c592f-d772-4b0b-907f-cbed4e01bd2e,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished

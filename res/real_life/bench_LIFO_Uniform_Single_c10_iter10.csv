@@ -1,0 +1,4 @@
+VirtualTime_Sec,RequestID,ModelID,OriginNode,EndNode,Operation,Size_GB,Duration_Sec,Description
+0.158000,10000,d9645446-9035-4686-b1f7-cec5e42d20df,client_10,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+0.316000,10000,d9645446-9035-4686-b1f7-cec5e42d20df,coordinator_0,client_10,NET_TRANSFER,0.000100,0.158000,Signal: Cache Miss / Request Weights
+0.474000,6000,4fd3dcdd-e979-40e6-88b5-23ce988a11ad,client_6,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID

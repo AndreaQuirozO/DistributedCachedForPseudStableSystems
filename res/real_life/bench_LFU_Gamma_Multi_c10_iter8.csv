@@ -1,0 +1,292 @@
+VirtualTime_Sec,RequestID,ModelID,OriginNode,EndNode,Operation,Size_GB,Duration_Sec,Description
+0.158000,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,client_10,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+0.316000,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,client_10,NET_TRANSFER,0.000100,0.158000,Signal: Cache Miss / Request Weights
+44724.344192,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,client_10,coordinator_0,NET_TRANSFER,559.048477,44724.028192,Upload Model Weights
+45803.574551,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,13.488504,1079.230359,Distribute Layer ID: fbe19fb7
+45803.679930,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,13.488504,0.105379,"Disk -> RAM [Model: b7711f09, Layer: fbe19fb7]"
+45803.785309,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,13.488504,0.105379,"RAM -> VRAM [Model: b7711f09, Layer: fbe19fb7]"
+45803.835309,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+45803.993309,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+46742.497471,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,11.729427,938.504162,Distribute Layer ID: 4da63b76
+46742.589107,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,11.729427,0.091636,"Disk -> RAM [Model: b7711f09, Layer: 4da63b76]"
+46742.680743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,11.729427,0.091636,"RAM -> VRAM [Model: b7711f09, Layer: 4da63b76]"
+46742.730743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+46742.888743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+47630.934758,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,11.098700,888.046015,Distribute Layer ID: 66de8e05
+47631.021467,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,11.098700,0.086709,"Disk -> RAM [Model: b7711f09, Layer: 66de8e05]"
+47631.108175,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,11.098700,0.086709,"RAM -> VRAM [Model: b7711f09, Layer: 66de8e05]"
+47631.158175,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+47631.316175,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+48081.976575,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,5.631380,450.660400,Distribute Layer ID: 8fcbf56f
+48082.020571,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,5.631380,0.043995,"Disk -> RAM [Model: b7711f09, Layer: 8fcbf56f]"
+48082.064566,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,5.631380,0.043995,"RAM -> VRAM [Model: b7711f09, Layer: 8fcbf56f]"
+48082.114566,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+48082.272566,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+48780.282179,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,8.723245,698.009613,Distribute Layer ID: aaa2850d
+48780.350329,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,8.723245,0.068150,"Disk -> RAM [Model: b7711f09, Layer: aaa2850d]"
+48780.418479,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,8.723245,0.068150,"RAM -> VRAM [Model: b7711f09, Layer: aaa2850d]"
+48780.468479,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+48780.626479,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+49739.285534,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,11.981363,958.659055,Distribute Layer ID: 103d2716
+49739.379139,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,11.981363,0.093604,"Disk -> RAM [Model: b7711f09, Layer: 103d2716]"
+49739.472743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,11.981363,0.093604,"RAM -> VRAM [Model: b7711f09, Layer: 103d2716]"
+49739.522743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+49739.680743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+50492.086226,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,9.403194,752.405483,Distribute Layer ID: d49c08c2
+50492.159689,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,9.403194,0.073462,"Disk -> RAM [Model: b7711f09, Layer: d49c08c2]"
+50492.233151,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,9.403194,0.073462,"RAM -> VRAM [Model: b7711f09, Layer: d49c08c2]"
+50492.283151,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+50492.441151,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+51532.528901,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,12.999222,1040.087750,Distribute Layer ID: a990cf8c
+51532.630457,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,12.999222,0.101556,"Disk -> RAM [Model: b7711f09, Layer: a990cf8c]"
+51532.732014,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,12.999222,0.101556,"RAM -> VRAM [Model: b7711f09, Layer: a990cf8c]"
+51532.782014,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+51532.940014,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+52273.654244,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,9.257053,740.714230,Distribute Layer ID: 53c7c4ca
+52273.726565,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,9.257053,0.072321,"Disk -> RAM [Model: b7711f09, Layer: 53c7c4ca]"
+52273.798886,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,9.257053,0.072321,"RAM -> VRAM [Model: b7711f09, Layer: 53c7c4ca]"
+52273.848886,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+52274.006886,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+52691.328622,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,5.214647,417.321737,Distribute Layer ID: 514c518c
+52691.369362,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,5.214647,0.040739,"Disk -> RAM [Model: b7711f09, Layer: 514c518c]"
+52691.410101,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,5.214647,0.040739,"RAM -> VRAM [Model: b7711f09, Layer: 514c518c]"
+52691.460101,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+52691.618101,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+53219.030698,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,6.590782,527.412597,Distribute Layer ID: e3fe265d
+53219.082189,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,6.590782,0.051490,"Disk -> RAM [Model: b7711f09, Layer: e3fe265d]"
+53219.133679,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,6.590782,0.051490,"RAM -> VRAM [Model: b7711f09, Layer: e3fe265d]"
+53219.183679,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+53219.341679,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+53762.156960,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,6.783316,542.815281,Distribute Layer ID: 16cfdfff
+53762.209955,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,6.783316,0.052995,"Disk -> RAM [Model: b7711f09, Layer: 16cfdfff]"
+53762.262950,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,6.783316,0.052995,"RAM -> VRAM [Model: b7711f09, Layer: 16cfdfff]"
+53762.312950,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+53762.470950,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+54836.276151,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,13.420690,1073.805202,Distribute Layer ID: 13796078
+54836.381001,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,13.420690,0.104849,"Disk -> RAM [Model: b7711f09, Layer: 13796078]"
+54836.485850,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,13.420690,0.104849,"RAM -> VRAM [Model: b7711f09, Layer: 13796078]"
+54836.535850,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+54836.693850,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+55974.715241,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,14.223392,1138.021391,Distribute Layer ID: 573b393e
+55974.826361,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,14.223392,0.111120,"Disk -> RAM [Model: b7711f09, Layer: 573b393e]"
+55974.937481,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,14.223392,0.111120,"RAM -> VRAM [Model: b7711f09, Layer: 573b393e]"
+55974.987481,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+55975.145481,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+56705.703080,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,9.130095,730.557599,Distribute Layer ID: 44756076
+56705.774408,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,9.130095,0.071329,"Disk -> RAM [Model: b7711f09, Layer: 44756076]"
+56705.845737,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,9.130095,0.071329,"RAM -> VRAM [Model: b7711f09, Layer: 44756076]"
+56705.895737,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+56706.053737,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+57347.801431,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,8.019971,641.747693,Distribute Layer ID: 901cee28
+57347.864087,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,8.019971,0.062656,"Disk -> RAM [Model: b7711f09, Layer: 901cee28]"
+57347.926743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,8.019971,0.062656,"RAM -> VRAM [Model: b7711f09, Layer: 901cee28]"
+57347.976743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+57348.134743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+58213.742239,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,10.818219,865.607496,Distribute Layer ID: 3cce1a54
+58213.826756,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,10.818219,0.084517,"Disk -> RAM [Model: b7711f09, Layer: 3cce1a54]"
+58213.911273,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,10.818219,0.084517,"RAM -> VRAM [Model: b7711f09, Layer: 3cce1a54]"
+58213.961273,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+58214.119273,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+59024.904875,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,10.132945,810.785601,Distribute Layer ID: 4c077a7c
+59024.984038,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,10.132945,0.079164,"Disk -> RAM [Model: b7711f09, Layer: 4c077a7c]"
+59025.063202,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,10.132945,0.079164,"RAM -> VRAM [Model: b7711f09, Layer: 4c077a7c]"
+59025.113202,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+59025.271202,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+59841.951817,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,10.206633,816.680615,Distribute Layer ID: ba7a4d69
+59842.031556,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,10.206633,0.079739,"Disk -> RAM [Model: b7711f09, Layer: ba7a4d69]"
+59842.111295,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,10.206633,0.079739,"RAM -> VRAM [Model: b7711f09, Layer: ba7a4d69]"
+59842.161295,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+59842.319295,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+60341.029458,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,6.232002,498.710163,Distribute Layer ID: 35a04930
+60341.078145,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,6.232002,0.048688,"Disk -> RAM [Model: b7711f09, Layer: 35a04930]"
+60341.126833,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,6.232002,0.048688,"RAM -> VRAM [Model: b7711f09, Layer: 35a04930]"
+60341.176833,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+60341.334833,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+61039.431975,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,8.724339,698.097142,Distribute Layer ID: b154dffb
+61039.500133,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,8.724339,0.068159,"Disk -> RAM [Model: b7711f09, Layer: b154dffb]"
+61039.568292,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,8.724339,0.068159,"RAM -> VRAM [Model: b7711f09, Layer: b154dffb]"
+61039.618292,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+61039.776292,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+62085.356211,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,13.067874,1045.579918,Distribute Layer ID: a5354ea9
+62085.458304,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,13.067874,0.102093,"Disk -> RAM [Model: b7711f09, Layer: a5354ea9]"
+62085.560396,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,13.067874,0.102093,"RAM -> VRAM [Model: b7711f09, Layer: a5354ea9]"
+62085.610396,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+62085.768396,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+62742.661886,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,8.209294,656.893490,Distribute Layer ID: 44a477f1
+62742.726021,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,8.209294,0.064135,"Disk -> RAM [Model: b7711f09, Layer: 44a477f1]"
+62742.790156,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,8.209294,0.064135,"RAM -> VRAM [Model: b7711f09, Layer: 44a477f1]"
+62742.840156,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+62742.998156,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+63713.661333,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,12.131415,970.663177,Distribute Layer ID: 832f44a7
+63713.756110,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,12.131415,0.094777,"Disk -> RAM [Model: b7711f09, Layer: 832f44a7]"
+63713.850887,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,12.131415,0.094777,"RAM -> VRAM [Model: b7711f09, Layer: 832f44a7]"
+63713.900887,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+63714.058887,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+64154.690354,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,5.506018,440.631467,Distribute Layer ID: 7d75d6cf
+64154.733370,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,5.506018,0.043016,"Disk -> RAM [Model: b7711f09, Layer: 7d75d6cf]"
+64154.776386,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,5.506018,0.043016,"RAM -> VRAM [Model: b7711f09, Layer: 7d75d6cf]"
+64154.826386,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+64154.984386,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+65166.302707,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,12.639604,1011.318322,Distribute Layer ID: 3ca7f0fc
+65166.401454,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,12.639604,0.098747,"Disk -> RAM [Model: b7711f09, Layer: 3ca7f0fc]"
+65166.500201,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,12.639604,0.098747,"RAM -> VRAM [Model: b7711f09, Layer: 3ca7f0fc]"
+65166.550201,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+65166.708201,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+66291.890738,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,14.062907,1125.182537,Distribute Layer ID: 076e5209
+66292.000605,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,14.062907,0.109866,"Disk -> RAM [Model: b7711f09, Layer: 076e5209]"
+66292.110471,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,14.062907,0.109866,"RAM -> VRAM [Model: b7711f09, Layer: 076e5209]"
+66292.160471,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+66292.318471,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+67203.460387,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,11.387399,911.141916,Distribute Layer ID: fdbe38bf
+67203.549351,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,11.387399,0.088964,"Disk -> RAM [Model: b7711f09, Layer: fdbe38bf]"
+67203.638316,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,11.387399,0.088964,"RAM -> VRAM [Model: b7711f09, Layer: fdbe38bf]"
+67203.688316,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+67203.846316,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+67856.462294,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,8.155825,652.615979,Distribute Layer ID: c3915044
+67856.620294,10001,f61196f3-3863-4bd3-8337-1bccc489b6b3,client_10,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+67856.778294,1000,7a9232ba-fc73-4fa9-a40f-8f892d29a1ee,client_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+67856.936294,2000,352599fa-8a24-454a-87f7-f4f189f54339,client_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+67857.094294,3000,a028cec4-2458-42e3-928f-dd31f9ca8aaa,client_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+67857.252294,2001,e8b13542-1db1-4d12-aa2d-caaf6b5f198d,client_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+67857.410294,5000,2d005971-fafb-4f2e-86f1-b89de922ab73,client_5,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+67857.568294,6002,5ba41b19-21ad-4a33-84f4-78c6c5cf4b9f,client_6,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+67857.726294,7000,c1f11723-fb23-4b71-aa81-9c1ecbc357f5,client_7,coordinator_0,NET_TRANSFER,0.000100,0.158000,Request Model ID
+67857.790012,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,8.155825,0.063717,"Disk -> RAM [Model: b7711f09, Layer: c3915044]"
+67857.853729,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,8.155825,0.063717,"RAM -> VRAM [Model: b7711f09, Layer: c3915044]"
+67857.903729,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+67858.061729,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+68547.197533,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,8.612323,689.135804,Distribute Layer ID: 05951271
+68547.264817,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,8.612323,0.067284,"Disk -> RAM [Model: b7711f09, Layer: 05951271]"
+68547.332100,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,8.612323,0.067284,"RAM -> VRAM [Model: b7711f09, Layer: 05951271]"
+68547.382100,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+68547.540100,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+69359.690892,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,10.150010,812.150791,Distribute Layer ID: 45b3608f
+69359.770189,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,10.150010,0.079297,"Disk -> RAM [Model: b7711f09, Layer: 45b3608f]"
+69359.849486,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,10.150010,0.079297,"RAM -> VRAM [Model: b7711f09, Layer: 45b3608f]"
+69359.899486,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+69360.057486,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+69919.769603,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,6.994526,559.712117,Distribute Layer ID: 42722cc4
+69919.824248,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,6.994526,0.054645,"Disk -> RAM [Model: b7711f09, Layer: 42722cc4]"
+69919.878892,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,6.994526,0.054645,"RAM -> VRAM [Model: b7711f09, Layer: 42722cc4]"
+69919.928892,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+69920.086892,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+70570.737904,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,8.131263,650.651012,Distribute Layer ID: 7bb3e04e
+70570.801430,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,8.131263,0.063525,"Disk -> RAM [Model: b7711f09, Layer: 7bb3e04e]"
+70570.864955,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,8.131263,0.063525,"RAM -> VRAM [Model: b7711f09, Layer: 7bb3e04e]"
+70570.914955,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+70571.072955,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+71352.364795,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,9.764273,781.291840,Distribute Layer ID: 790e4e0e
+71352.441079,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,9.764273,0.076283,"Disk -> RAM [Model: b7711f09, Layer: 790e4e0e]"
+71352.517362,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,9.764273,0.076283,"RAM -> VRAM [Model: b7711f09, Layer: 790e4e0e]"
+71352.567362,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+71352.725362,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+72038.084259,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,8.565111,685.358897,Distribute Layer ID: 0903b3ba
+72038.151174,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,8.565111,0.066915,"Disk -> RAM [Model: b7711f09, Layer: 0903b3ba]"
+72038.218089,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,8.565111,0.066915,"RAM -> VRAM [Model: b7711f09, Layer: 0903b3ba]"
+72038.268089,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+72038.426089,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+73024.513116,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,12.324213,986.087026,Distribute Layer ID: 3486b953
+73024.609399,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,12.324213,0.096283,"Disk -> RAM [Model: b7711f09, Layer: 3486b953]"
+73024.705681,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,12.324213,0.096283,"RAM -> VRAM [Model: b7711f09, Layer: 3486b953]"
+73024.755681,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+73024.913681,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+73767.935230,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,9.285894,743.021549,Distribute Layer ID: b3e9845d
+73768.007776,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,9.285894,0.072546,"Disk -> RAM [Model: b7711f09, Layer: b3e9845d]"
+73768.080322,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,9.285894,0.072546,"RAM -> VRAM [Model: b7711f09, Layer: b3e9845d]"
+73768.130322,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+73768.288322,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+74751.816962,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,12.292233,983.528640,Distribute Layer ID: 121ad678
+74751.912995,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,12.292233,0.096033,"Disk -> RAM [Model: b7711f09, Layer: 121ad678]"
+74752.009028,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,12.292233,0.096033,"RAM -> VRAM [Model: b7711f09, Layer: 121ad678]"
+74752.059028,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+74752.217028,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+75617.307243,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,10.811753,865.090215,Distribute Layer ID: 5e4a1852
+75617.391710,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,10.811753,0.084467,"Disk -> RAM [Model: b7711f09, Layer: 5e4a1852]"
+75617.476177,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,10.811753,0.084467,"RAM -> VRAM [Model: b7711f09, Layer: 5e4a1852]"
+75617.526177,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+75617.684177,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+76327.886909,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,8.875659,710.202732,Distribute Layer ID: cc7b2aed
+76327.956250,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,8.875659,0.069341,"Disk -> RAM [Model: b7711f09, Layer: cc7b2aed]"
+76328.025591,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,8.875659,0.069341,"RAM -> VRAM [Model: b7711f09, Layer: cc7b2aed]"
+76328.075591,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+76328.233591,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+76833.532935,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,6.314367,505.299344,Distribute Layer ID: 83fadb15
+76833.582266,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,6.314367,0.049331,"Disk -> RAM [Model: b7711f09, Layer: 83fadb15]"
+76833.631597,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,6.314367,0.049331,"RAM -> VRAM [Model: b7711f09, Layer: 83fadb15]"
+76833.681597,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+76833.839597,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+77448.251209,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,7.678270,614.411612,Distribute Layer ID: 13e3a494
+77448.311195,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,7.678270,0.059986,"Disk -> RAM [Model: b7711f09, Layer: 13e3a494]"
+77448.371182,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,7.678270,0.059986,"RAM -> VRAM [Model: b7711f09, Layer: 13e3a494]"
+77448.421182,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+77448.579182,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+78002.932708,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,6.927544,554.353526,Distribute Layer ID: 6a6ed68f
+78002.986829,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,6.927544,0.054121,"Disk -> RAM [Model: b7711f09, Layer: 6a6ed68f]"
+78003.040951,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,6.927544,0.054121,"RAM -> VRAM [Model: b7711f09, Layer: 6a6ed68f]"
+78003.090951,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+78003.248951,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+79014.750460,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,12.641894,1011.501510,Distribute Layer ID: 28079261
+79014.849225,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,12.641894,0.098765,"Disk -> RAM [Model: b7711f09, Layer: 28079261]"
+79014.947990,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,12.641894,0.098765,"RAM -> VRAM [Model: b7711f09, Layer: 28079261]"
+79014.997990,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+79015.155990,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+80128.104240,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,13.909978,1112.948250,Distribute Layer ID: c1cfd8f0
+80128.212912,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,13.909978,0.108672,"Disk -> RAM [Model: b7711f09, Layer: c1cfd8f0]"
+80128.321584,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,13.909978,0.108672,"RAM -> VRAM [Model: b7711f09, Layer: c1cfd8f0]"
+80128.371584,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+80128.529584,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+81276.068743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,14.342364,1147.539160,Distribute Layer ID: 846c9b24
+81276.180793,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,14.342364,0.112050,"Disk -> RAM [Model: b7711f09, Layer: 846c9b24]"
+81276.292843,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,14.342364,0.112050,"RAM -> VRAM [Model: b7711f09, Layer: 846c9b24]"
+81276.342843,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+81276.500843,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+81904.405179,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,7.846929,627.904337,Distribute Layer ID: c8ecc43a
+81904.466483,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,7.846929,0.061304,"Disk -> RAM [Model: b7711f09, Layer: c8ecc43a]"
+81904.527788,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,7.846929,0.061304,"RAM -> VRAM [Model: b7711f09, Layer: c8ecc43a]"
+81904.577788,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+81904.735788,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+82620.118306,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,8.940406,715.382518,Distribute Layer ID: 38035db0
+82620.188153,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,8.940406,0.069847,"Disk -> RAM [Model: b7711f09, Layer: 38035db0]"
+82620.258000,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,8.940406,0.069847,"RAM -> VRAM [Model: b7711f09, Layer: 38035db0]"
+82620.308000,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+82620.466000,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+83501.291481,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,11.008444,880.825482,Distribute Layer ID: c71c6dca
+83501.377485,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,11.008444,0.086003,"Disk -> RAM [Model: b7711f09, Layer: c71c6dca]"
+83501.463488,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,11.008444,0.086003,"RAM -> VRAM [Model: b7711f09, Layer: c71c6dca]"
+83501.513488,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+83501.671488,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+84525.217030,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,12.792444,1023.545542,Distribute Layer ID: d999201d
+84525.316971,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,12.792444,0.099941,"Disk -> RAM [Model: b7711f09, Layer: d999201d]"
+84525.416912,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,12.792444,0.099941,"RAM -> VRAM [Model: b7711f09, Layer: d999201d]"
+84525.466912,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+84525.624912,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+85644.620576,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,13.985571,1118.995664,Distribute Layer ID: a56409b9
+85644.729838,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,13.985571,0.109262,"Disk -> RAM [Model: b7711f09, Layer: a56409b9]"
+85644.839101,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,13.985571,0.109262,"RAM -> VRAM [Model: b7711f09, Layer: a56409b9]"
+85644.889101,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+85645.047101,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+86042.745097,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,4.969350,397.697996,Distribute Layer ID: 58d30928
+86042.783920,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,4.969350,0.038823,"Disk -> RAM [Model: b7711f09, Layer: 58d30928]"
+86042.822743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,4.969350,0.038823,"RAM -> VRAM [Model: b7711f09, Layer: 58d30928]"
+86042.872743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+86043.030743,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+86767.732078,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_4,NET_TRANSFER,9.056892,724.701335,Distribute Layer ID: 87294189
+86767.802835,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,DISK_LOAD,9.056892,0.070757,"Disk -> RAM [Model: b7711f09, Layer: 87294189]"
+86767.873592,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,MEM_MOVE,9.056892,0.070757,"RAM -> VRAM [Model: b7711f09, Layer: 87294189]"
+86767.923592,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,worker_4,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+86768.081592,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_4,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+87411.699180,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_1,NET_TRANSFER,8.043345,643.617588,Distribute Layer ID: 3d7cbb82
+87411.762019,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,DISK_LOAD,8.043345,0.062839,"Disk -> RAM [Model: b7711f09, Layer: 3d7cbb82]"
+87411.824857,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,MEM_MOVE,8.043345,0.062839,"RAM -> VRAM [Model: b7711f09, Layer: 3d7cbb82]"
+87411.874857,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,worker_1,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+87412.032857,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_1,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+88372.668791,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_2,NET_TRANSFER,12.006074,960.635934,Distribute Layer ID: 4cc8cd0c
+88372.762589,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,DISK_LOAD,12.006074,0.093797,"Disk -> RAM [Model: b7711f09, Layer: 4cc8cd0c]"
+88372.856386,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,MEM_MOVE,12.006074,0.093797,"RAM -> VRAM [Model: b7711f09, Layer: 4cc8cd0c]"
+88372.906386,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,worker_2,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+88373.064386,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_2,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
+89477.845768,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,coordinator_0,worker_3,NET_TRANSFER,13.807892,1104.781382,Distribute Layer ID: 2a0ebe3f
+89477.953643,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,DISK_LOAD,13.807892,0.107874,"Disk -> RAM [Model: b7711f09, Layer: 2a0ebe3f]"
+89478.061517,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,MEM_MOVE,13.807892,0.107874,"RAM -> VRAM [Model: b7711f09, Layer: 2a0ebe3f]"
+89478.111517,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,worker_3,GPU_COMPUTE,0.050000,0.050000,GPU Compute
+89478.269517,10000,b7711f09-2b6d-4acb-82fb-ba4f3bddcd22,worker_3,coordinator_0,NET_TRANSFER,0.000100,0.158000,Signal Finished
