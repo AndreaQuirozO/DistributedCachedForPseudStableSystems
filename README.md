@@ -1,4 +1,4 @@
-# Distributed Cache Simulator for Pseudo-Stable Inference Systems
+# A Simulation-Based Evaluation of Cache Eviction Policies for Distributed Inference Systems
 
 [![Go Version](https://img.shields.io/github/go-mod/go-version/AndreaQuirozO/DistributedCachedForPseudStableSystems)](https://golang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
